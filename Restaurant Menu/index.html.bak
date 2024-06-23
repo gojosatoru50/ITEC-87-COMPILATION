@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Restaurant ni Kurt</title>
+</head>
+<body>
+<!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#main">Main Dishes</a></li>
+				<li><a href="#vegetable">Vegetables</a></li>
+                <li><a href="#desserts">Desserts</a></li>
+                <li><a href="#drinks">Drinks</a></li>
+				<li><a href="#adds">Add-Ons</a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- End Navigation Bar -->
+	
+<!-- Hero Section -->
+<div class="section flex" id="hero-section">
+      <div class="text">
+        <h1 class="primary">SVD ni RHYZ</span>
+        </h1>
+      </div>
+      <div class="visual">
+        <img src="heheburger.png" alt="">
+      </div>
+    </div>
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to BURGIR NI RHYZ</h2>
+            <p>Discover the essence of culinary excellence at BURGIR NI RHYZ, an exquisite dining destination in the heart of Tagaytay.<br>
+			Our restaurant is a celebration of creative cuisine, warm hospitality, and an inviting atmosphere.<br>
+			With a commitment to using the finest local ingredients, our chefs craft dishes that tell a story on every plate.<br>
+			Whether you're seeking a romantic dinner, a casual gathering, or a special celebration, SVD Laudato Si’ Farm welcomes you to an unforgettable dining experience.<br>
+			Join us and savor the magic of exceptional flavors, heartfelt hospitality, and cherished moments. </p>
+        </div>
+    </section>
+	<hr>
+	 <!-- End Hero Section -->
+	 
+	  <!-- Restaurant Menu -->
+
+<section id="main">
+    <h2>Main Dishes</h2>
+    <div class="main-item">
+        <img src="bacon.png" alt="Burger">
+        <div class="main-content">
+		<div class="menu-content">
+            <h3>BBQ BACON CHEDDAR GRILLED CHICKEN SANDWICH</h3>
+            <p class="description">Double Turkey patty, American cheese, applewood smoked bacon, lettuce, tomatoes, mayo, toasted bun.</p>
+            <p class="price">150.00 php</p>
+            <button>Order Now</button>
+        </div>
+		</div>
+		<div class="main-item">
+		<div class="main-content">
+        <img src="chicken.png" alt="Burger">
+        <div class="menu-content">
+            <h3>DOUBLE CLASSIC SMASH® BURGER</h3>
+            <p class="description">Double Certified Angus Beef, American cheese, lettuce, tomatoes, red onions, pickles, Smash Sauce®, ketchup, toasted bun.</p>
+            <p class="price">150.00 php</p>
+            <button>Order Now</button>
+        </div>
+		  </div>
+		
+		<div class="main-item">
+        <img src="MNC.png" alt="Burger">
+        <div class="main-content">
+		<div class="menu-content">
+            <h3>SCORCHIN' HOT MAC & CHEESE TURKEY BURGER</h3>
+            <p class="description">Turkey burger, Nasville Hot seasoned Mac n' Cheese smashed on our grill to create a crispy baked cheese layer, American cheese, toasted bun</p>
+            <p class="price">120.00 php</p>
+            <button>Order Now</button>
+        </div>
+		  </div>
+		
+		<div class="main-item">
+        <img src="sanwhich.png" alt="Burger">
+        <div class="main-content">
+		<div class="menu-content">
+            <h3>ORIGINAL SANDWHICH BURGER</h3>
+            <p class="description"> Crisp lettuce, juicy tomatoes, and pickles provide a refreshing crunch, while melted cheese adds a creamy richness.</p>
+            <p class="price">100.00 php</p>
+            <button>Order Now</button>
+        </div>
+		  </div>
+		
+    </div>
+</section>
+
+
+	<section id="vegetable">
+    <h2>Vegetables</h2>
+    <div class="vegetable-item">
+        <img src="bacon.png" alt="Burger">
+        <div class="vegetable-content">
+		<div class="menu-content">
+            <h3>BBQ BACON CHEDDAR GRILLED CHICKEN SANDWICH</h3>
+            <p class="description">Double Turkey patty, American cheese, applewood smoked bacon, lettuce, tomatoes, mayo, toasted bun.</p>
+            <p class="price">150.00 php</p>
+            <button>Order Now</button>
+        </div>
+		</div>
+		<div class="vegetable-item">
+		<div class="vegetable-content">
+        <img src="chicken.png" alt="Burger">
+        <div class="menu-content">
+            <h3>DOUBLE CLASSIC SMASH® BURGER</h3>
+            <p class="description">Double Certified Angus Beef, American cheese, lettuce, tomatoes, red onions, pickles, Smash Sauce®, ketchup, toasted bun.</p>
+            <p class="price">150.00 php</p>
+            <button>Order Now</button>
+        </div>
+		  </div>
+		
+		<div class="vegetable-item">
+        <img src="MNC.png" alt="Burger">
+        <div class="vegetable-content">
+		<div class="menu-content">
+            <h3>SCORCHIN' HOT MAC & CHEESE TURKEY BURGER</h3>
+            <p class="description">Turkey burger, Nasville Hot seasoned Mac n' Cheese smashed on our grill to create a crispy baked cheese layer, American cheese, toasted bun</p>
+            <p class="price">120.00 php</p>
+            <button>Order Now</button>
+        </div>
+		  </div>
+    </div>
+</section>
+	
+	<section id="desserts">
+    <h2>Desserts</h2>
+    <div class="desserts-item">
+        <img src="bacon.png" alt="Burger">
+        <div class="desserts-content">
+		<div class="menu-content">
+            <h3>BBQ BACON CHEDDAR GRILLED CHICKEN SANDWICH</h3>
+            <p class="description">Double Turkey patty, American cheese, applewood smoked bacon, lettuce, tomatoes, mayo, toasted bun.</p>
+            <p class="price">150.00 php</p>
+            <button>Order Now</button>
+        </div>
+		</div>
+		<div class="desserts-item">
+		<div class="desserts-content">
+        <img src="chicken.png" alt="Burger">
+        <div class="menu-content">
+            <h3>DOUBLE CLASSIC SMASH® BURGER</h3>
+            <p class="description">Double Certified Angus Beef, American cheese, lettuce, tomatoes, red onions, pickles, Smash Sauce®, ketchup, toasted bun.</p>
+            <p class="price">150.00 php</p>
+            <button>Order Now</button>
+        </div>
+		  </div>
+		
+		<div class="desserts-item">
+        <img src="MNC.png" alt="Burger">
+        <div class="desserts-content">
+		<div class="menu-content">
+            <h3>SCORCHIN' HOT MAC & CHEESE TURKEY BURGER</h3>
+            <p class="description">Turkey burger, Nasville Hot seasoned Mac n' Cheese smashed on our grill to create a crispy baked cheese layer, American cheese, toasted bun</p>
+            <p class="price">120.00 php</p>
+            <button>Order Now</button>
+        </div>
+		  </div>
+    </div>
+</section>
+
+<section id="drinks">
+    <h2>Drinks</h2>
+    <div class="drinks-item">
+        <img src="bacon.png" alt="Burger">
+        <div class="drinks-content">
+		<div class="menu-content">
+            <h3>BBQ BACON CHEDDAR GRILLED CHICKEN SANDWICH</h3>
+            <p class="description">Double Turkey patty, American cheese, applewood smoked bacon, lettuce, tomatoes, mayo, toasted bun.</p>
+            <p class="price">150.00 php</p>
+            <button>Order Now</button>
+        </div>
+		</div>
+		<div class="drinks-item">
+		<div class="drinks-content">
+        <img src="chicken.png" alt="Burger">
+        <div class="menu-content">
+            <h3>DOUBLE CLASSIC SMASH® BURGER</h3>
+            <p class="description">Double Certified Angus Beef, American cheese, lettuce, tomatoes, red onions, pickles, Smash Sauce®, ketchup, toasted bun.</p>
+            <p class="price">150.00 php</p>
+            <button>Order Now</button>
+        </div>
+		  </div>
+		
+		<div class="drinks-item">
+        <img src="MNC.png" alt="Burger">
+        <div class="drinks-content">
+		<div class="menu-content">
+            <h3>SCORCHIN' HOT MAC & CHEESE TURKEY BURGER</h3>
+            <p class="description">Turkey burger, Nasville Hot seasoned Mac n' Cheese smashed on our grill to create a crispy baked cheese layer, American cheese, toasted bun</p>
+            <p class="price">120.00 php</p>
+            <button>Order Now</button>
+        </div>
+		  </div>
+    </div>
+</section>
+
+<section id="adds">
+    <h2>Add-Ons</h2>
+    <div class="adds-item">
+        <img src="bacon.png" alt="Burger">
+        <div class="adds-content">
+		<div class="menu-content">
+            <h3>BBQ BACON CHEDDAR GRILLED CHICKEN SANDWICH</h3>
+            <p class="description">Double Turkey patty, American cheese, applewood smoked bacon, lettuce, tomatoes, mayo, toasted bun.</p>
+            <p class="price">150.00 php</p>
+            <button>Order Now</button>
+        </div>
+		</div>
+		<div class="adds-item">
+		<div class="adds-content">
+        <img src="chicken.png" alt="Burger">
+        <div class="menu-content">
+            <h3>DOUBLE CLASSIC SMASH® BURGER</h3>
+            <p class="description">Double Certified Angus Beef, American cheese, lettuce, tomatoes, red onions, pickles, Smash Sauce®, ketchup, toasted bun.</p>
+            <p class="price">150.00 php</p>
+            <button>Order Now</button>
+        </div>
+		  </div>
+		
+		<div class="adds-item">
+        <img src="MNC.png" alt="Burger">
+        <div class="adds-content">
+		<div class="menu-content">
+            <h3>SCORCHIN' HOT MAC & CHEESE TURKEY BURGER</h3>
+            <p class="description">Turkey burger, Nasville Hot seasoned Mac n' Cheese smashed on our grill to create a crispy baked cheese layer, American cheese, toasted bun</p>
+            <p class="price">120.00 php</p>
+            <button>Order Now</button>
+        </div>
+		  </div>
+    </div>
+</section>
+
+<!-- End Restaurant Menu -->
+
+     <!-- About -->
+    </div>
+    <section id="about" class="hero">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>It started with Smashburger’s first restaurant opening at the Mataas na Burol, Silang. It was 2007, and we were starving for a good burger. Oh sure, there were plenty of burgers out there, but they all tasted the same – rushed. Trading savoriness for speediness. Convenience over craftsmanship. A quick experience instead of a taste experience.</p>
+
+<p>Using custom-forged burger smashers, our chefs set forth to craft the best burgers, fries, and shakes that quickly became a local sensation. Our burgers were so irresistible that we soon discovered we weren't the only ones craving a better burger – our ravenous fans couldn't get enough! And it wasn't just our burgers – even our sides were a hit. Our rosemary SmashFries® were so mouthwateringly delicious that we started receiving hate mail from customers who couldn't stop devouring them!</p>
+        </div>
+    </section>
+    <!-- End About -->
+<!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>For reservations, please call: (123) 456-7890</p>
+            <p>Email: tamsresto@gmail.com</p>
+        </div>
+    </section>
+<!-- End Contact Section -->
+    <footer>
+        <div class="container">
+            <p>2023 Tam's Resto. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+  * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: rgb(229, 212, 212);
+        }
+        .resume {
+            background-color: #fff;
+            width: 70%;
+            max-width: 70%; 
+            margin: auto;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        #contact li, #education ul, #skills ul, #personalProfile li {
+            margin-bottom: 10px;
+        }
+        .leftSide {
+            width: 35%;
+            background-color: #efecec;
+        }
+        li {
+            list-style-type: none;
+        }
+        .title {
+            background-color: rgb(42, 33, 33);
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            margin: 40px 10%;
+            padding: 10px;
+        }
+        .profile img {
+            width: 60%;  
+            height: auto;
+            border: solid 10px white;
+            border-radius: 50%;
+            display: block;
+            margin: 20px auto;
+        }
+        ul li {
+            font-size: 1vw;
+        }
+        h3 {
+            font-size: 1.2vw;
+        }
+        li {
+            font-family: Arial, sans-serif;
+            margin-left: 20px;
+        }
+        .rightSide {
+            width: 65%;
+            background-color: white;
+            padding: 20px;
+        }
+        .name {
+            text-align: center;
+            margin-top: 20px;
+        }
+        #fname {
+            font-size: 4vw;
+        }
+        #lname {
+            font-size: 3vw;
+        }
+        #objectives p {
+            font-size: 1vw;
+            margin: 20px;
+        }
+        span {
+            font-weight: bolder;
+        }
+        #workExperience p {
+            font-size: 2vw;
+            font-family: Arial, sans-serif;
+            font-weight: bolder;
+            text-align: center;
+        }
+        .navigation {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            margin-top: 20px;
+        }
+        .navigation button {
+            font-size: 0.9vw;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            background-color: white;
+            border-radius: 5px;
+            padding: 3px 3px;
+            border: 1px solid #ccc;
+        }

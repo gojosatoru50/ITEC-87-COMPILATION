@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Menu1.css">
+    <title>Restaurant ni Kurt</title>
+</head>
+<body>
+<!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#main">Main Dishes</a></li>
+				<li><a href="#vegetable">Vegetables</a></li>
+                <li><a href="#desserts">Desserts</a></li>
+                <li><a href="#drinks">Drinks</a></li>
+				<li><a href="#adds">Add-Ons</a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- End Navigation Bar -->
+
+   </div>
+  </header>
+ <section id="home">
+  <section class ="home-section">
+    <div class ="home-content"><b>Welcome to SVD Laudato Si' Farm </b>
+	<br>
+	<div class="profile">
+	<img src="svd-farm.jpg" alt="Square Picture" class="center-right">
+	</div>
+    <p>Greetings from SVD Laudato Si' Farm, where each meal is an adventure and each bite narrates a tale. 
+	Our restaurant, which is tucked away in the center of Tagaytay, is a haven for foodies and adventurous diners alike. 
+	Our cozy and welcoming atmosphere creates the perfect setting for special meal occasions where family and friends get together to enjoy delectable food 
+	and make lifelong memories. SVD Laudato Si' Farm offers an amazing voyage through the world of flavors, whether you're looking for a private event to 
+	honor a particular occasion, a boisterous get-together with friends, or a romantic evening for two. 
+	Come along with us as we go on a gastronomic journey that will delight your palate and satisfy your spirit.</p>
+	</section>
+	 
+	 <section id="main">
+    <div class ="dess-content"><b>Main Dishes</b></div>
+    <div class="dess-section">
+    
+    <ul class="dishe-list">
+      <li class="dishe">
+        <img src="adobo.jpg" alt="Dish 1">
+        <div class="dishe-info">
+          <h2>Native Chicken Adobo <br> ₱300.00 </h2>
+          <p> Savor the essence of Filipino comfort food with our Native Chicken Adobo – tender native chicken simmered in a savory blend of soy sauce, vinegar, garlic, and spices at "Flavors of the Archipelago."
+</p>
+        </div>
+      </li>
+
+      <li class="dishe">
+        <img src="lumpia.jpg" alt="Dish 2">
+        <div class="dishe-info">
+          <h2>Crunchy Fresh Lumpia  <br> ₱150.00 (Double) <br> ₱120.00 (Single) </h2>
+          <p>Experience the delightful Crunchy Fresh Lumpia at "SavorBites," where a crispy rice paper exterior encases a vibrant blend of fresh vegetables and savory proteins. This unique take on a Filipino classic offers a harmonious marriage of textures and flavors, providing a light yet satisfying culinary experience that is sure to tantalize your taste buds.
+</p>
+        </div>
+      </li>
+	  
+	  <li class="dishe">
+        <img src="pompano.jpg" alt="Dish 2">
+        <div class="dishe-info">
+          <h2>Pompano Sinigang sa Miso <br> ₱700.00 (Good for 3 to 4 Persons) </h2>
+          <p>Savor the perfect blend of tangy and savory with our Pompano Sinigang sa Miso at "SeaFlavors" – a delightful Filipino classic featuring succulent pompano fish in a rich miso and tamarind broth.
+</p>
+        </div>
+      </li>
+	  
+	  	  <li class="dishe">
+        <img src="hawaiian.jpg" alt="Dish 2">
+        <div class="dishe-info">
+          <h2>Hawaiian Pizza <br> ₱500.00 (12" x 18" Round)</h2>
+          <p>Savor the tropical blend of sweet pineapple and savory ham on a crispy crust with our Hawaiian Pizza at "Island Slices" – a taste of paradise in every bite.
+</p>
+        </div>
+      </li>
+	  
+    </ul>
+	</section>
+	
+		 <section id="vegetable">
+    <div class ="dess-content"><b>Vegetables</b></div>
+    <div class="dess-section">
+    
+    <ul class="dishe-list">
+      <li class="dishe">
+        <img src="lasagna.jpg" alt="Dish 1">
+        <div class="dishe-info">
+          <h2>Vegetable Lasagna <br> ₱150.00 (Served with toasted bread) </h2>
+          <p>Savor the goodness of Vegetable Lasagna at "Garden Gourmet" – layers of oven-baked vegetables, creamy béchamel, and perfectly cooked noodles for a delightful meatless treat.
+</p>
+        </div>
+      </li>
+
+      <li class="dishe">
+        <img src="okoy.jpg" alt="Dish 2">
+        <div class="dishe-info">
+          <h2>Vegetable Ukoy  <br> ₱150.00 </h2>
+          <p>Savor the unique crunch of "Crispy Garden Gems" at "FlavorCanvas" – a reimagined Vegetable Ukoy with julienned vegetables in a secret golden batter.
+</p>
+        </div>
+      </li>
+	  
+	  <li class="dishe">
+        <img src="quesadilla.jpg" alt="Dish 2">
+        <div class="dishe-info">
+          <h2>Vegetable Quesadilla <br> ₱300.00 </h2>
+          <p>Savor the flavors of Mexico with our Vegetable Quesadilla at "QuesoJoy" – a perfect blend of grilled veggies, melted cheese, and zesty spices in a warm, golden tortilla.
+</p>
+        </div>
+      </li>
+	  
+    </ul>
+	</section>
+	
+			 <section id="desserts">
+    <div class ="dess-content"><b>Desserts</b></div>
+    <div class="dess-section">
+    
+    <ul class="dishe-list">
+      <li class="dishe">
+        <img src="halohalo.jpg" alt="Dish 1">
+        <div class="dishe-info">
+          <h2>Halo-Halo <br> ₱120.00 </h2>
+          <p>Chill with Halo-Halo at "ChillBliss" – a refreshing Filipino dessert medley featuring shaved ice, sweet fruits, jellies, and creamy ube ice cream.
+</p>
+        </div>
+      </li>
+
+      <li class="dishe">
+        <img src="lecheflan.jpg" alt="Dish 2">
+        <div class="dishe-info">
+          <h2>Leche Flan  <br> ₱120.00 </h2>
+          <p>Indulge in the creamy delight of Leche Flan at "DulceDelight" – a velvety caramel custard capturing the essence of Filipino sweetness.
+</p>
+        </div>
+      </li>
+	  
+	  <li class="dishe">
+        <img src="graham.jpg" alt="Dish 2">
+        <div class="dishe-info">
+          <h2>Mango Graham <br> ₱200.00 </h2>
+          <p>Indulge in "TropicCrave's" Mango Symphony – a harmonious blend of succulent mango, honeyed graham crackers, and velvety cream in every delightful bite.
+</p>
+        </div>
+      </li>
+	  
+    </ul>
+	</section>
+	
+				 <section id="drinks">
+    <div class ="dess-content"><b>Drinks</b></div>
+    <div class="dess-section">
+    
+    <ul class="dishe-list">
+      <li class="dishe">
+        <img src="mixed.jpg" alt="Dish 1">
+        <div class="dishe-info">
+          <h2>Mixed Fruit Berries <br> ₱120.00(Fixed to large) </h2>
+          <p>Savor the freshness of "Berry Fusion" at "FruitfulBliss" – a vibrant mix of juicy fruits and assorted berries for a refreshing delight.
+</p>
+        </div>
+      </li>
+
+      <li class="dishe">
+        <img src="lemon.jpg" alt="Dish 2">
+        <div class="dishe-info">
+          <h2>Lemon Fruit Yogurt  <br> ₱100.00(Fixed to large) </h2>
+          <p>Quench your thirst with "CitrusSip's" Zesty Yogurt Burst – a refreshing blend of tangy lemon and creamy yogurt.
+</p>
+        </div>
+      </li>
+	  
+	  <li class="dishe">
+        <img src="tiger.jpg" alt="Dish 2">
+        <div class="dishe-info">
+          <h2>Tiger Brown Sugar <br> ₱120.00(Large) <br> ₱100.00(Medium)  </h2>
+          <p>Sip on the bold "Tiger's Kiss" at "SweetStripes" – a thrilling fusion of rich brown sugar and bold espresso for an intense and invigorating flavor experience.
+</p>
+        </div>
+      </li>
+	  
+    </ul>
+	</section>
+	
+					 <section id="adds">
+    <div class ="dess-content"><b>Add-Ons</b></div>
+    <div class="dess-section">
+    
+    <ul class="dishe-list">
+      <li class="dishe">
+        <img src="rice.jpg" alt="Dish 1">
+        <div class="dishe-info">
+          <h2>Motivational Rice <br> ₱200.00 </h2>
+          <p> Indulge in rice simplicity at "GrainHarmony" with our signature dish, "Rice Reverie" – a celebration of flawlessly cooked grains, offering a comforting and authentic rice experience.
+</p>
+        </div>
+      </li>
+
+      <li class="dishe">
+        <img src="egg.jpg" alt="Dish 2">
+        <div class="dishe-info">
+          <h2>Egg  <br> ₱50.00 </h2>
+          <p> Savor morning perfection with our "Golden Sunrise" egg at "SunnyStarts" – perfectly cooked to elevate your breakfast.
+</p>
+        </div>
+      </li>
+	  
+	  <li class="dishe">
+        <img src="sauce.jpg" alt="Dish 2">
+        <div class="dishe-info">
+          <h2>Dressing/Sauce <br> ₱30.00 </h2>
+          <p>Elevate your dish with "FlavorFusion" dressing at "SauceryHub" – a culinary masterpiece in every drizzle, turning every bite into a flavor symphony.
+</p>
+        </div>
+      </li>
+	  
+    </ul>
+	</section>
+
+</body>
+</html>

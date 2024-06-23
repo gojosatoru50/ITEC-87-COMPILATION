@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MANGUERRA_KURT</title>
+  <link rel="stylesheet" href="cor.css">
+</head>
+
+<body>
+<div class= "whole">
+<header id="header">
+  <div class="prof">
+	<img src="cctlogo.png" alt="logo">
+  </div>
+  <div class="header-content">
+	<p> City of Tagaytay <br>
+	<b>CITY COLLEGE OF TAGAYTAY</b><br>
+	Akle St., Kaybagal South, Tagaytay City<br>
+	Telephone No.:(046) 482-6840 </p>
+	<p><b>CERTIFICATE OF REGISTRATION</b><br>
+	<u class="header-info">A.Y. 2023-2024, 2nd Semester</u></p>
+  </div>
+  <div class="profile">
+	<img src="tagaytaylogo.png" alt="logo">
+  </div>
+</header>
+
+<table id="table">
+  <caption>REGISTRATION INFORMATION</caption>
+  <tbody>
+	<tr>
+  	<td></td>
+  	<td></td>
+  	<td><span style="color: #850a0a;"><b>&nbsp; DATE: </b></span></td>
+  	<td>2024-02-06</td>
+	</tr>
+	<tr>
+  	<td><span style="color: #850a0a;"><b>&nbsp; NAME: </b></span></td>
+  	<td>&nbsp; MANGUERRA, KURT ELLYSEN R.</td>
+  	<td><span style="color: #850a0a;"><b>&nbsp; STUDENT NUMBER: </b></span></td>
+  	<td>2020020122</td>
+	</tr>
+	<tr>
+  	<td><span style="color: #850a0a;"><b>&nbsp; PROGRAM:</b></span></td>
+  	<td>&nbsp; Bachelor of Science in Information Technology</td>
+  	<td><span style="color: #850a0a;"><b>&nbsp; YEAR LEVEL: </b></span></td>
+  	<td>3</td>
+	</tr>
+	<tr>
+  	<td><span style="color: #850a0a;"><b>&nbsp; MAJOR: </b></span></td>
+  	<td>&nbsp; None</td>
+  	<td><span style="color: #850a0a;"><b>&nbsp; REGISTRATION STATUS: </b></span></td>
+  	<td>irregular</td>
+	</tr>
+	<tr>
+  	<td>&nbsp;</td>
+  	<td>&nbsp;</td>
+  	<td>&nbsp;</td>
+  	<td>&nbsp;</td>
+	</tr>
+  </tbody>
+</table>
+
+<table id="second-table">
+  <thead>
+	<tr>
+  	<th>SECTION</th>
+  	<th>COURSE CODE</th>
+  	<th>COURSE DESCRIPTION</th>
+  	<th>UNITS</th>
+  	<th>SCHEDULE</th>
+	</tr>
+  </thead>
+  <tbody>
+	<tr>
+  	<td>&nbsp;</td>
+	  <td>&nbsp;</td>
+	  <td>&nbsp;</td>
+	  <td>&nbsp;</td>
+	  <td>&nbsp;</td>
+	</tr>
+	<tr>
+  	<td>BSIT 3-3</td>
+	  <td>ITEC42</td>
+	  <td>Quantitative Methods (including Model and Simulation)</td>
+	  <td>3</td>
+	  <td>&nbsp;</td>
+	</tr>
+	<tr>
+  	<td>BSIT 3-3</td>
+	  <td>ITEC57</td>
+	  <td>Information Assurance and Security 1</td>
+	  <td>3</td>
+	  <td>&nbsp;</td>
+	</tr>
+	<tr>
+  	<td>BSIT 3-3</td>
+	  <td>ITEC60</td>
+	  <td>Social Issues and Professional Issues</td>
+	  <td>3</td>
+	  <td>2:00pm 5:00pm Tue TBA</td>
+	  <td>&nbsp;</td>
+	</tr>
+	<tr>
+  	<td>BSIT 3-3</td>
+	  <td>ITEC63</td>
+	  <td>Application Development and Emerging Technologies</td>
+	  <td>3</td>
+	  <td>7:00am 10:00am Wed CLAB1 1:00pm 3:00pm<br>
+Wed 405</td>
+	  <td>&nbsp;</td>
+	</tr>
+	<tr>
+  	<td>BSIT 3-3</td>
+	  <td>ITEC76</td>
+	  <td>Business Communication</td>
+	  <td>3</td>
+	  <td>&nbsp;</td>
+	</tr>
+	<tr>
+  	<td>BSIT 3-3</td>
+	  <td>ITEC84</td>
+	  <td>Fundamentals of Business Outsourcing 1</td>
+	  <td>3</td>
+	  <td>&nbsp;</td>
+	</tr>
+	<tr>
+  	<td>BSIT 3-3</td>
+	  <td>ITEC87</td>
+	  <td>Web Systems & Technologies</td>
+	  <td>3</td>
+	  <td>7:30am 9:30am Mon<br>317 7:30am 10:30am Tue
+CLAB5</td>
+	</tr>
+	<tr>
+  	<td>BSIT 3-3</td>
+	  <td>MERE1</td>
+	  <td>Methods of Research</td>
+	  <td>3</td>
+	  <td>110:00am 1:00pm Wed 321</td>
+	</tr>
+	<tr>
+  	<td>&nbsp;</td>
+	  <td>&nbsp;</td>
+	  <td>&nbsp;</td>
+	  <td>&nbsp;</td>
+	  <td>&nbsp;</td>
+	</tr>
+	<tr>
+  	<td>&nbsp;</td>
+	  <td>&nbsp;</td>
+	  <td>&nbsp;</td>
+	  <td>&nbsp;</td>
+	  <td>&nbsp;</td>
+	</tr>
+	<tr>
+  	<td>&nbsp;</td>
+	  <td>&nbsp;</td>
+	  <td>&nbsp;</td>
+	  <td>&nbsp;</td>
+	  <td>&nbsp;</td>
+	</tr>
+	<tr>
+  	<td>&nbsp;</td>
+	  <td>&nbsp;</td>
+	  <td>&nbsp;</td>
+	  <td>&nbsp;</td>
+	  <td>&nbsp;</td>
+	</tr>
+  </tbody>
+</table>
+
+<table id="third-table">
+  <caption>
+	<div>
+  	<span style="color: #850a0a;"><b>SUBJECTS:</b></span>
+  	<span style="color: black;"><b>8</b></span>
+  	<span style="color: #850a0a;"><b>LEC.UNITS:</b></span>
+  	<span style="color: black;"><b>20</b></span>
+  	<span style="color: #850a0a;"><b>LAB. UNITS:</b></span>
+  	<span style="color: black;"><b>4</b></span>
+  	<span style="color: #850a0a;"><b>TOTAL CREDITS:</b></span>
+  	<span style="color: black;"><b>24</b></span>
+	</div>
+	</caption>
+	
+<caption> BILLING INFORMATION</caption>
+	<div style="text-align: center;">
+<table id = "fourth-table" >
+	<tr>
+	<td class="ft" width="40%" colspan="2">
+	<span class="text-co"><b>&nbsp;&nbsp; SCHOLARSHIP GRANT: </b></span>
+	</td>
+	<td class="ft" width="60%">
+	<span class="text-co"><b>&nbsp;&nbsp; PAYMENT DETAILS: </b></span>
+	</td>
+
+	</tr>
+	
+	<tr>
+  <td colspan="2" class="ft">&nbsp;&nbsp;&nbsp;&nbsp; FREE HIGHER EDUCATION PROGRAM (R.A. 10931)</td>
+<td rowspan="8" class="ft" style="vertical-align: top; padding-left: 0px">
+	<span class="text-co"><b>&nbsp;&nbsp; TERMS OF PAYMENT: </b></span>
+	<table id="payments" width="60%">
+  	<tr>
+    	<td style="border:none; padding-left: 40px">
+      	<span class="text-co">First Payment:</span>
+    	</td>
+    	<td style="border:none; text-align:right; padding-right: 100px;">2,242.75</td>
+  	</tr>
+  	<tr>
+    	<td style="border:none; padding-left: 40px">
+      	<span class="text-co">Second Payment:</span>
+    	</td>
+    	<td style="border:none; text-align:right; padding-right: 100px;">2,242.75</td>
+  	</tr>
+  	<tr>
+    	<td style="border:none; padding-left: 40px">
+      	<span class="text-co">Third Payment:</span>
+    	</td>
+    	<td style="border:none; text-align:right; padding-right: 100px;">2,242.75</td>
+  	</tr>
+  	<tr>
+    	<td style="border:none; padding-left: 40px">
+      	<span class="text-co">Fourth Payment:</span>
+    	</td>
+    	<td style="border:none; text-align:right; padding-right: 100px;">2,242.75</td>
+  	</tr>
+	</table>
+</td>
+
+
+	
+	<tr>
+	<td colspan="2" class = "ft" >
+	<span class="text-co"><b>&nbsp;&nbsp; ASSESSMENT OF FEES: </b></span></td>
+	</tr>
+	
+	
+	<tr><td class = "ra" style = "padding-left: 25px" >
+	<span class="text-co">Tuition Fee: </span></td>
+	<td class = "ra"  style="text-align:right; padding-right: 20px;"> 4,200.00 </td>	
+	</tr>
+		
+	<tr><td class = "ra" style = "padding-left: 25px">
+	<span class="text-co">NSTP Fee: </span></td>
+	<td class = "ra" style="text-align: right; padding-right: 20px">0</td>
+	</tr>
+
+	<tr><td class = "ra" style = "padding-left: 25px">
+	<span class="text-co">Athletic Fee:  </span></td>
+	<td class = "ra" style="text-align:right; padding-right: 20px">0.00</td>
+	</tr>
+
+	<tr><td class = "ra" style = "padding-left: 25px">
+	<span class="text-co">Computer Fees: </span></td>
+	<td class = "ra" style="text-align:right; padding-right: 20px">736.00</td>
+	</tr>
+
+	<tr><td class = "ra" style = "padding-left: 25px">
+	<span class="text-co">Cultural Fees:  </span></td>
+	<td class = "ra" style="text-align:right; padding-right: 20px">1,700.00</td>
+	</tr>
+
+	<tr><td class = "ra" style = "padding-left: 25px">
+	<span class="text-co">Development Fees: </span></td>
+	<td class = "ra" style="text-align:right; padding-right: 20px">1,455.00</td>
+	</tr>
+
+	<tr><td class = "ra" style = "padding-left: 25px">
+	<span class="text-co">Admission Fees:  </span></td>
+	<td class = "ra" style="text-align:right ; padding-right: 20px">0.00</td>
+	<td style = "text-align: center">
+	<span class="text-co"><b>RULES ON FEES</b></span></td>
+	</tr>
+
+	<tr><td class = "ra" style = "padding-left: 25px">
+	<span class="text-co">Guidance Fees: </span></td>
+	<td class = "ra" style="text-align:right; padding-right: 20px">25.00</td>
+	<td style= "padding-left:15px">
+	<span class="text-co"><b>TERMS OF PAYMENT</b></span>
+	</td>
+	</tr>
+
+	<tr><td class = "ra" style = "padding-left: 25px">
+	<span class="text-co">Handbook Fees: </span></td>
+	<td class = "ra" style="text-align:right; padding-right: 20px">0.00</td>
+		<td rowspan = "8" style= "padding-left:40px;">
+		<span class="text-co">
+			1. All fees are payable in cash upon enrollment or by installment basis. For the
+		<br>&nbsp;&nbsp;&nbsp; installment plan agreement are as follows:
+		<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Twenty five percent (25%) of the total fees shall be collected upon
+		<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;enrollment.
+		<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. Remaining seventy five percent (75%), will be divided into each terms one
+		<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;week before the examination.
+		<br>2. Students who paid in cash basis are entitled for a "refund" or "withdraw" policy
+		<br>&nbsp;&nbsp;&nbsp; within a month (30 days) after the date of registration under the following <br>&nbsp;&nbsp;&nbsp; conditions:
+		<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. 80% of the amount paid when he withdraws within the first week after the
+		<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;registrations, whether he has attended class or not.
+		<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. 50% of the amount paid when he withdraws within the second, third,
+		<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fourth week after the registration, whether he has attended class or not.
+		<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. No refund will be made 30 days after registration.
+			</span></td>
+	</tr>
+
+	<tr><td class = "ra" style = "padding-left: 25px">
+	<span class="text-co">Library Fees:  </span></td>
+	<td class = "right-a" style="text-align:right; padding-right: 20px">550.00</td>
+	</tr>
+
+	<tr><td class = "ra" style = "padding-left: 25px">
+	<span class="text-co">Medical/Dental Fees: </span> </td>
+	<td class = "ra" style="text-align:right; padding-right: 20px">250.00</td>
+	</tr>
+
+	<tr><td class = "ra" style = "padding-left: 25px">
+	<span class="text-co">Registration Fees:  </span></td>
+	<td class = "ra" style="text-align:right; padding-right: 20px">55.00</td>
+	</tr>
+
+	<tr><td class = "ra" style = "padding-left: 25px">
+	<span class="text-co">School I.D. Fee: </span></td>
+	<td class = "ra" style="text-align:right; padding-right: 20px">0.00</td>
+	</tr>
+
+	<tr><td class = "ra" style = "padding-left: 25px">
+	<span class="text-co">Other Fines:</span> </td>
+	<td class = "ra" style="text-align:right; padding-right: 20px"></td>
+	</tr>
+
+	<tr><td class = "ft">
+	<span class="text-co"><b>&nbsp;&nbsp; TOTAL:</b></span></td>
+	<td class = "ft" style="text-align:right; padding-right: 20px"><span>8,971.00</span></td>
+	</tr>
+	
+	<tr>
+	<td class = "ft" height = "40px"></td>
+	<td class="ft"></td>
+	</tr>
+	
+	<tr>
+	<td class="ft" height = "30px" style="vertical-align:top">
+	<span class="text-co"><b>&nbsp;&nbsp; ASSESSED BY: </b> </span><br></td>
+	<td class = "ft"style ="text-align:center">
+	<span class="text-co"><b> Ms. Elisa G. Chacon </b>
+	<br> Cashier </span>
+	</td>
+	</tr>
+	
+
+</table>
+
+
+<table id = "ver">
+
+<tr>
+<td style = "height:20px; vertical-align:top">&nbsp;&nbsp; Verified by:</td>
+<td style = "height:20px;"></td>
+<td style = "height:20px; vertical-align:top">&nbsp;&nbsp; Approved By:</td>
+<td style = "height:20px;"></td>
+</tr>
+
+<tr>
+<td style = "height:20px;"></td>
+<td style = "height:20px; vertical-align:bottom">&nbsp;&nbsp; School Dean</td>
+<td style = "height:20px;"></td>
+<td style = "height:20px; vertical-align:bottom">&nbsp;&nbsp; College Registrar</td>
+</tr>
+
+
+</table>
+ 
+
+
+</div>
+</body>
+</html>

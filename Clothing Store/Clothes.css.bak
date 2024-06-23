@@ -1,0 +1,399 @@
+body {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  padding-top: 0px;
+}
+
+.logo {
+  color: black;
+  font-size: 24px;
+}
+.logo p {
+   color: black;
+   font-size: 30px;
+   
+   }
+
+nav {
+  background-color: #ff70a6;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  padding-top: 0x;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+	height: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #8a817c;
+  font-size: 20px;
+  transition: color 0.3s ease;
+  font-weight: bold;
+  padding: 12px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s; 
+}
+
+nav a:hover {
+ background-color: #a682b0;
+}
+
+nav a.active {
+  background-color: #a682b0; 
+}
+
+
+section {
+  text-align: center;
+  background-color: #f9f9f9;
+  
+}
+.home-section p {
+	padding-top: 250px;
+	font-size: 50px;
+	color: #c97245;
+	padding-left: 200px;
+    padding-right: 200px;
+	margin-bottom: -180px;
+}
+.home-content {
+	padding-top:100px;
+	font-size: 32px;
+	color: #0c0f0a;
+}
+
+.profile {
+    margin-bottom: 20px;
+	padding-top: 40px;
+  }
+
+.profile img {
+    width: 600px;
+    height: 410px;
+    border-radius: 10%;
+    margin-bottom: 10px;
+	border: 7px solid;
+	border-color: #006494; 
+	
+  }
+  
+ /*Jeans*/
+ 
+ .jeans-content {
+	padding-top:230px;
+	font-size: 30px;
+	color: #0c0f0a;
+	margin-top: 0px;
+}
+
+.jeans-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: -180px;
+}
+
+.jeans {
+  width: 270px;
+  margin: 5px;
+  padding: 20px;
+  background-color: #ffd670;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+  border: 2px solid;
+  border-color: black; 
+  margin-top: 40px;
+}
+
+.jeans img {
+  width: 90%;
+  height: 50%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.jeans h2 {
+  margin-top: 5px;
+  color: #036666;
+}
+
+.jeans p {
+  font-size: 18px;
+  color: #0c0f0a;
+  margin-bottom: 10px;
+}
+
+
+ /*Tshirt*/
+ 
+ .tshirt-content {
+	padding-top:230px;
+	font-size: 30px;
+	color: #0c0f0a;
+	margin-top: 0px;
+}
+
+.tshirt-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: -180px;
+}
+
+.tshirt {
+  width: 270px;
+  margin: 5px;
+  padding: 20px;
+  background-color: #ff9770;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+  border: 2px solid;
+  border-color: black; 
+  margin-top: 40px;
+}
+
+.tshirt img {
+  width: 90%;
+  height: 50%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.tshirt h2 {
+  margin-top: 5px;
+  color: #036666;
+}
+
+.tshirt p {
+  font-size: 18px;
+  color: #0c0f0a;
+  margin-bottom: 10px;
+}
+
+/*SANDO*/
+
+ .sando-content {
+	padding-top:230px;
+	font-size: 30px;
+	color: #0c0f0a;
+	margin-top: 0px;
+}
+
+.sando-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: -180px;
+}
+
+.sando {
+  width: 270px;
+  margin: 5px;
+  padding: 20px;
+  background-color: #70d6ff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+  border: 2px solid;
+  border-color: black; 
+  margin-top: 40px;
+}
+
+.sando img {
+  width: 90%;
+  height: 50%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.sando h2 {
+  margin-top: 5px;
+  color: #036666;
+}
+
+.sando p {
+  font-size: 18px;
+  color: #0c0f0a;
+  margin-bottom: 10px;
+}
+
+/* PERFUME */
+
+.perfume-content {
+	padding-top:230px;
+	font-size: 30px;
+	color: #0c0f0a;
+	margin-top: -200px;
+	justify-content: center;
+}
+
+.perfume-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+
+.perfume-container {
+  display: flex;
+  max-width: 800px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+
+.perfume {
+  flex: 0 0 auto;
+  width: 300px;
+  margin: 10px;
+  background-color: #3a6ea5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  border: 2px solid;
+  border-color: black; 
+  margin-bottom: 250px;
+  
+}
+
+.perfume:hover {
+  transform: rotate(5deg);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  
+}
+
+
+
+.perfume img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+
+
+.perfume-info {
+  padding: 20px;
+}
+
+.perfume-info h2 {
+  margin-top: 0;
+  color: #036666;
+}
+
+.perfume-info p {
+  transition: max-height 0.3s ease;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #0c0f0a;
+}
+
+.perfume:hover .perfume-info p {
+  font-size: 18px;
+  color: #0c0f0a;
+}
+
+/*TOYS*/
+
+.toys {
+      background-color: #feeafa;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 450px;
+      transition: transform 0.3s ease;
+	  flex: 0 0 calc(33.33% - 20px); 
+      margin: 7px;
+	  border: 2px solid;
+	  border-color: black; 
+	  margin-top: 20px;
+    }
+    
+    .toys img {
+      max-width: 100%;
+	  height:250px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    
+    .toys-info {
+  padding: 20px;
+}
+
+.toys-info h2 {
+  margin-top: 0;
+  color: #036666;
+}
+
+.toys-info p {
+  font-size: 18px;
+  color: #0c0f0a;
+  margin-bottom: 10px;
+}
+
+.toys-content {
+	padding-top:230px;
+	font-size: 30px;
+	color: #0c0f0a;
+	margin-top: -430px;
+	justify-content: center;
+}
+
+.toys-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+    
+    .toys span {
+      color: #333;
+      font-size: 1.1rem;
+      font-weight: bold;
+    }
+
+    /* Shake animation */
+    .toys:hover {
+      animation: shake 0.5s ease;
+    }
+
+    @keyframes shake {
+      0% { transform: translateX(0); }
+      25% { transform: translateX(-5px); }
+      50% { transform: translateX(5px); }
+      75% { transform: translateX(-5px); }
+      100% { transform: translateX(0); }
+    }
+
+.footer-logo {
+  margin-top: 30px;
+  width: 100px; 
+  height: auto; 
+  border-radius: 50%;   
+  margin-bottom: -10px;
+  border: 3px solid;
+  border-color: #006494; 
+}

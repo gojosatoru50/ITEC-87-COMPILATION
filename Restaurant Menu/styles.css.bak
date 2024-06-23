@@ -1,0 +1,485 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.8); /* Transparent black background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 22px; /* Reduced padding */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.3s ease-in-out; /* for Smooth background transition */
+	
+}
+
+.header:hover {
+    background: rgba(0, 0, 0, 0.9); /* Darker background on hover */
+}
+	
+	/* Navigation Bar*/
+	
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 100;
+    display: flex;
+	text-align: center;
+}
+
+nav ul li {
+	z-index: 1000;
+    margin-right: 5px; /* Reduced margin */
+	margin-left: 5px;
+	padding-left: 60px;
+    padding-right: 50px;
+	text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px; /* Reduced font size */
+	padding: 10px 10px;
+	border-radius: 5px;
+	transition: background-color 0.3s;
+	z-index: 1000;
+}
+
+nav a:hover {
+    background-color: #1a759f;
+}
+
+/* End Navigation Bar*/
+
+
+
+.hero {
+    background-image: url('images/restaurant-interior.jpg');
+    background-size: cover;
+    color: #000000;
+    text-align: center;
+    padding: 100px 0;
+}
+
+section {
+    padding: 50px 0;
+	text-align: center;
+}
+.bg-light {
+    background-color: #f9f9f9;
+}
+
+/* Hero Section */
+#hero-section {
+  background: #1a759f;
+  color: #fff;
+  margin-top: 60px;
+  text-align: center;
+  padding-left: 450px;
+  padding-right: 300px;
+  padding-top: 5px;
+  font-family: Arial Black, sans-serif;
+}
+
+.text,
+.visual {
+  width: 60%;
+}
+
+.text {
+  margin: 0 20px;
+}
+
+.visual img {
+  width: 80%;
+  height: auto;
+  display: block;
+}
+
+#hero-section .text {
+  margin-left: 30px;
+}
+
+#hero-section .visual img {
+  margin-left: auto;
+}
+  /* End Hero Section */
+
+  /* Main Dishes */
+  #main {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+.main-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+	border: 2px solid;
+	border-color: black;
+}
+
+.main-item:hover {
+    transform: scale(1.05);
+}
+
+.main-item img {
+    width: 20%;
+    height: 20%;
+    border-radius: 9px 9px 0 0;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.main-content h3 {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.main-content .description {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.main-content .price {
+    font-size: 23px;
+    color: #333;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.main-content button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.main-content button:hover {
+    background-color: #555;
+}
+
+.location {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* End Main Dishes */
+
+/* Vegetables */
+
+ #vegetable {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+.vegetable-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+	border: 2px solid;
+	border-color: black;
+}
+
+.vegetable-item:hover {
+    transform: scale(1.05);
+}
+
+.vegetable-item img {
+    width: 20%;
+    height: 20%;
+    border-radius: 9px 9px 0 0;
+}
+
+.vegetable-content {
+    padding: 20px;
+}
+
+.vegetable-content h3 {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.vegetable-content .description {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.vegetable-content .price {
+    font-size: 23px;
+    color: #333;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.vegetable-content button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.vegetable-content button:hover {
+    background-color: #555;
+}
+
+.location {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* End Vegetables */
+
+/* Desserts */
+
+ #desserts {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+.desserts-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+	border: 2px solid;
+	border-color: black;
+}
+
+.desserts-item:hover {
+    transform: scale(1.05);
+}
+
+.desserts-item img {
+    width: 20%;
+    height: 20%;
+    border-radius: 9px 9px 0 0;
+}
+
+.desserts-content {
+    padding: 20px;
+}
+
+.desserts-content h3 {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.desserts-content .description {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.desserts-content .price {
+    font-size: 23px;
+    color: #333;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.desserts-content button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.desserts-content button:hover {
+    background-color: #555;
+}
+
+.location {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* End Desserts */
+
+/* Drinks */
+
+ #drinks {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+.drinks-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+	border: 2px solid;
+	border-color: black;
+}
+
+.drinks-item:hover {
+    transform: scale(1.05);
+}
+
+.drinks-item img {
+    width: 20%;
+    height: 20%;
+    border-radius: 9px 9px 0 0;
+}
+
+.drinks-content {
+    padding: 20px;
+}
+
+.drinks-content h3 {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.drinks-content .description {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.drinks-content .price {
+    font-size: 23px;
+    color: #333;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.drinks-content button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.drinks-content button:hover {
+    background-color: #555;
+}
+
+.location {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* End Drinks */
+
+/* Adds-On */
+
+ #adds {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+.adds-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+	border: 2px solid;
+	border-color: black;
+}
+
+.adds-item:hover {
+    transform: scale(1.05);
+}
+
+.adds-item img {
+    width: 20%;
+    height: 20%;
+    border-radius: 9px 9px 0 0;
+}
+
+.adds-content {
+    padding: 20px;
+}
+
+.adds-content h3 {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.adds-content .description {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.adds-content .price {
+    font-size: 23px;
+    color: #333;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.adds-content button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.adds-content button:hover {
+    background-color: #555;
+}
+
+.location {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* End Adds-On */
+
+/* About */
+#about .visual img,
+#app .visual img {
+  margin-middle: middle;
+}
+/* End About */
+
+.home-container {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+	

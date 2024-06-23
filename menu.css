@@ -1,0 +1,102 @@
+body {
+	background: url('morty.jpeg') no-repeat center center fixed;
+	background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ccc;
+}
+
+.menu-container {
+  text-align: center; /* Aligns content in the center */
+  margin-top: 20px; /* Adjust margin top as needed */
+}
+
+.menu-container h1 {
+  font-family: Montserrat, sans-serif; /* Use Impact font or specify a suitable fallback */
+  font-size: 2.8em; /* Adjust font size */
+  color: #ffff3f;
+  text-transform: uppercase; /* Uppercase text */
+  letter-spacing: 0.1.5em; /* Adjust letter spacing */
+  margin-top: 25px;
+  margin-bottom: 8px; /* Adjust margin bottom as needed */
+}
+
+
+.menu-button {
+	width: 220px;
+	height: 58px;
+	cursor: pointer;
+	color: #fff;
+	font-size: 25px;
+	border-radius: 1rem;
+	border: none;
+	position: relative;
+	background: #100720;
+	transition: 0.1s;
+	font-family: Trebuchet MS, san-serif;
+}
+
+.menu-button {
+  --glow-color: rgb(0, 191, 255); /* Neon blue */
+  --glow-spread-color: rgba(0, 191, 255, 0.4); /* Reduced transparency for glow spread */
+  --enhanced-glow-color: rgb(0, 215, 255); /* Brighter neon blue */
+  --btn-color: rgba(0, 61, 136, 0.6); /* Neon blue with more transparency */
+  border: .25em solid var(--glow-color);
+  padding: 1em 3em;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: var(--btn-color);
+  border-radius: 1em;
+  outline: none;
+  box-shadow: 0 0 1em .25em var(--glow-color),
+             0 0 2em 0.5em var(--glow-spread-color),
+             inset 0 0 .75em .25em var(--glow-color);
+  text-shadow: 0 0 .5em var(--glow-color);
+  position: relative;
+  transition: all 0.3s;
+}
+
+.menu-button::after {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--glow-spread-color);
+  filter: blur(2em);
+  opacity: .5;
+  transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+}
+
+.menu-button:hover {
+  color: white;
+  background-color: rgba(0, 191, 255, 0.6); /* Neon blue with more transparency */
+  box-shadow: 0 0 1em .25em var(--glow-color),
+             0 0 3em 1em var(--glow-spread-color),
+             inset 0 0 .75em .25em var(--glow-color);
+}
+
+.menu-button:active {
+  box-shadow: 0 0 0.6em .25em var(--glow-color),
+             0 0 1.5em 1em var(--glow-spread-color),
+             inset 0 0 .5em .25em var(--glow-color);
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+    color: #ffff3f; 
+    padding: 10px 0;
+	font-family: Montserrat, sans-serif;
+	letter-spacing: 0.1em; 
+}

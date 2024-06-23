@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: rgb(229, 212, 212);
+        }
+        .resume {
+            background-color: #fff;
+            width: 70%;
+            max-width: 70%; 
+            margin: auto;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        #contact li, #education ul, #skills ul, #personalProfile li {
+            margin-bottom: 10px;
+        }
+        .leftSide {
+            width: 35%;
+            background-color: #efecec;
+        }
+        li {
+            list-style-type: none;
+        }
+        .title {
+            background-color: rgb(42, 33, 33);
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            margin: 40px 10%;
+            padding: 10px;
+        }
+        .profile img {
+            width: 60%;  
+            height: auto;
+            border: solid 10px white;
+            border-radius: 50%;
+            display: block;
+            margin: 20px auto;
+        }
+        ul li {
+            font-size: 1vw;
+        }
+        h3 {
+            font-size: 1.2vw;
+        }
+        li {
+            font-family: Arial, sans-serif;
+            margin-left: 20px;
+        }
+        .rightSide {
+            width: 65%;
+            background-color: white;
+            padding: 20px;
+        }
+        .name {
+            text-align: center;
+            margin-top: 20px;
+        }
+        #fname {
+            font-size: 4vw;
+        }
+        #lname {
+            font-size: 3vw;
+        }
+        #objectives p {
+            font-size: 1vw;
+            margin: 20px;
+        }
+        span {
+            font-weight: bolder;
+        }
+        #workExperience p {
+            font-size: 2vw;
+            font-family: Arial, sans-serif;
+            font-weight: bolder;
+            text-align: center;
+        }
+        .navigation {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            margin-top: 20px;
+        }
+        .navigation button {
+            font-size: 0.9vw;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            background-color: white;
+            border-radius: 5px;
+            padding: 3px 3px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container resume">
+        <div class="leftSide">
+            <div class="profile text-center">
+                <img src="c:\Users\ASSS\Desktop\act_itec87\Resumehtml\carl_macayan_image.jpg" alt="Profile Picture" class="img-circle">
+            </div>
+            <div id="contact" class="section">
+                <h3 class="title">CONTACT ME</h3>
+                <ul class="list-unstyled">
+                    <li>Email: emmanueljusimacayan16@gmail.com</li>
+                    <li>Address: 08 Perey St. Asis ll, Mendez, Cavite</li>
+                    <li>Phone: 09955159702</li>
+                </ul>
+            </div>
+            <div id="education" class="section">
+                <h3 class="title">EDUCATION</h3>
+                <ul class="list-unstyled">
+                    <li><strong>College:</strong> City College of Tagaytay</li>
+                </ul>
+                <ul class="list-unstyled">
+                    <li><strong>Senior High School:</strong> Anselmo A. Sandoval National High School</li>
+                </ul>
+                <ul class="list-unstyled">
+                    <li><strong>Junior High School:</strong> Anselmo A. Sandoval National High School</li>
+                </ul>
+                <ul class="list-unstyled">
+                    <li><strong>Elementary:</strong> Mabini Central School</li>
+                </ul>
+            </div>
+            <div id="skills" class="section">
+                <h3 class="title">SKILLS</h3>
+                <ul class="list-unstyled">
+                    <li>HTML</li>
+                    <li>Computer Repair Service</li>
+                    <li>PHP</li>
+                    <li>MySQL</li>
+                    <li>Typing Master Pro</li>
+                </ul>
+            </div>
+        </div>
+        <div class="rightSide">
+            <div class="jumbotron name">
+                <h1 id="fname">Carl Emmanuel</h1>
+                <h2 id="lname">Macayan</h2>
+            </div>
+
+            <div class="navigation">
+                <button id="btn_contact" onclick="display_contact()">CONTACT</button>
+                <button id="btn_education" onclick="display_education()">EDUCATION</button>
+                <button id="btn_skills" onclick="display_skills()">SKILLS</button>
+                <button id="btn_career_objectives" onclick="display_career_objectives()">OBJECTIVE</button>
+                <button id="btn_personal_info" onclick="display_personal_info()">PROFILE</button>
+                <button id="btn_work_experience" onclick="display_work_experience()">WORK EXPERIENCE</button>
+                <button id="btn_display_all" onclick="display_all()">DISPLAY ALL</button>
+            </div>
+
+            <div id="objectives" class="section">
+                <h3 class="title">OBJECTIVES</h3>
+                <p>My name is Carl, I am a graduate of G12 in Strand which is Information in Communication Technology, and currently studying at City College Of Tagaytay 3rd Year student in the BSIT course, 
+                    I am looking for a part time job of a Computer Technician, since that's what I've been doing already for two years experience and get, become NCII Holder in Computer Servicing.</p>
+            </div>
+            <div id="personalProfile" class="section">
+                <h3 class="title">PERSONAL PROFILE</h3>
+                <ul class="list-unstyled">
+                    <li><span>Date of Birth:</span> May 26, 2003</li>
+                    <li><span>Age:</span> 20</li>
+                    <li><span>Gender:</span> Male</li>
+                    <li><span>Marital Status:</span> Single</li>
+                    <li><span>Nationality:</span> Filipino</li>
+                    <li><span>Religion:</span> Roman Catholic</li>
+                </ul>
+            </div>
+            <div id="workExperience" class="section">
+                <h3 class="title">WORK EXPERIENCE</h3>
+                <p>No Experience</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        function backtoNormal() {
+            document.getElementById('btn_contact').style.background = 'white';
+            document.getElementById('btn_education').style.background = 'white';
+            document.getElementById('btn_skills').style.background = 'white';
+            document.getElementById('btn_career_objectives').style.background = 'white';
+            document.getElementById('btn_personal_info').style.background = 'white';
+            document.getElementById('btn_work_experience').style.background = 'white';
+            document.getElementById('btn_display_all').style.background = 'white';
+        }
+
+        function display_contact() {
+            document.getElementById('contact').style.display = 'block';
+            document.getElementById('education').style.display = 'none';
+            document.getElementById('skills').style.display = 'none';
+            document.getElementById('objectives').style.display = 'none';
+            document.getElementById('personalProfile').style.display = 'none';
+            document.getElementById('workExperience').style.display = 'none';
+            backtoNormal();
+            document.getElementById('btn_contact').style.background = 'grey';
+        }
+
+        function display_education() {
+            document.getElementById('contact').style.display = 'none';
+            document.getElementById('education').style.display = 'block';
+            document.getElementById('skills').style.display = 'none';
+            document.getElementById('objectives').style.display = 'none';
+            document.getElementById('personalProfile').style.display = 'none';
+            document.getElementById('workExperience').style.display = 'none';
+            backtoNormal();
+            document.getElementById('btn_education').style.background = 'grey';
+        }
+
+        function display_skills() {
+            document.getElementById('contact').style.display = 'none';
+            document.getElementById('education').style.display = 'none';
+            document.getElementById('skills').style.display = 'block';
+            document.getElementById('objectives').style.display = 'none';
+            document.getElementById('personalProfile').style.display = 'none';
+            document.getElementById('workExperience').style.display = 'none';
+            backtoNormal();
+            document.getElementById('btn_skills').style.background = 'grey';
+        }
+
+        function display_career_objectives() {
+            document.getElementById('contact').style.display = 'none';
+            document.getElementById('education').style.display = 'none';
+            document.getElementById('skills').style.display = 'none';
+            document.getElementById('objectives').style.display = 'block';
+            document.getElementById('personalProfile').style.display = 'none';
+            document.getElementById('workExperience').style.display = 'none';
+            backtoNormal();
+            document.getElementById('btn_career_objectives').style.background = 'grey';
+        }
+
+        function display_personal_info() {
+            document.getElementById('contact').style.display = 'none';
+            document.getElementById('education').style.display = 'none';
+            document.getElementById('skills').style.display = 'none';
+            document.getElementById('objectives').style.display = 'none';
+            document.getElementById('personalProfile').style.display = 'block';
+            document.getElementById('workExperience').style.display = 'none';
+            backtoNormal();
+            document.getElementById('btn_personal_info').style.background = 'grey';
+        }
+
+        function display_work_experience() {
+            document.getElementById('contact').style.display = 'none';
+            document.getElementById('education').style.display = 'none';
+            document.getElementById('skills').style.display = 'none';
+            document.getElementById('objectives').style.display = 'none';
+            document.getElementById('personalProfile').style.display = 'none';
+            document.getElementById('workExperience').style.display = 'block';
+            backtoNormal();
+            document.getElementById('btn_work_experience').style.background = 'grey';
+        }
+
+        function display_all() {
+            document.getElementById('contact').style.display = 'block';
+            document.getElementById('education').style.display = 'block';
+            document.getElementById('skills').style.display = 'block';
+            document.getElementById('objectives').style.display = 'block';
+            document.getElementById('personalProfile').style.display = 'block';
+            document.getElementById('workExperience').style.display = 'block';
+            backtoNormal();
+            document.getElementById('btn_display_all').style.background = 'grey';
+        }
+    </script>
+</body>
+</html>
